@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './app/features/counter/Counter';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      OkOkOk
+      <Counter />
     </div>
   );
 }
